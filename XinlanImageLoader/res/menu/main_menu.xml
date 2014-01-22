@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_clear_memory_cache"
+        android:title="清空内存缓存"/>
+    <item
+        android:id="@+id/item_clear_disc_cache"
+        android:title="清空磁盘缓存"/>
+    <item
+        android:id="@+id/item_pause_on_scroll"
+        android:checkable="true"
+        android:title="滑动时暂停"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_pause_on_fling"
+        android:checkable="true"
+        android:title="触摸时暂停"
+        android:visible="false"/>
+
+</menu>
